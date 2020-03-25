@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="woojin.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>송우진</title> 
+    <script>
+        function popup(){
+            var url = "4.html";
+            var name = "시계";
+            var option = "width = 500, height = 500, top = 100, left = 200, location = no"
+            window.open(url, name, option);
+           }
+    </script>  
+    <script type="text/javascript">
+        // 우측 클릭 방지
+        document.onmousedown=disableclick;
+        status="Right click is not available.";
+        
+        function disableclick(event){
+            if (event.button==2) {
+                alert("경고!! 우클릭방지");
+                return false;
+            }
+        
+        
+        }
+    </script>
+    <style type="text/css">.dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+        </style>
+</head>
+<body oncontextmenu="return false" onselect="return fale" ondragstart="return fale">
+    <ul>
+        <div class="dropdown">
+            <button class="dropbtn">MENU</button>
+            <div class="dropdown-content">
+      <li><a href="2.html">sign in</a>
+      </li>
+      <li><a href="1.html">환영의말</a>
+      </li>
+      <li><a href="index.html">Home</a>
+      </li>
+      <li><a href="popup.html">about</a>
+      </li>
+      <li><a href="4.html">시계</a>
+      </li>
+      <li><a href="9.html">위치</a>
+    </li>
+    </div>
+        </div>
+   <div id="landing-container">
+        <h1>안녕하세요!</h1>
+    </div><div id="About" class="content">
+    <div id="about-container">
+        <div class="title">
+            <h1>저의 첫 웹페이지입니다.</h1>
+        </div>
+        <div class="abouts">
+            <div class="about">
+                <div class="question">
+                    <h1>저는</h1>
+                </div>
+                <div class="answer">
+                    <p>중학생입니다.
+                        <p>
+                        </div>
+                  </body>
+                  
+            </div>
+            <div class="about">
+                <div class="question">
+                    <h1>lorem ipsum</h1>
+                </div>
+                <div class="asnswer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ducimus eum aliquid hic sunt, consectetur
+                        pariatur rerum ipsum ea reprehenderit est tempore non omnis dolorem possimus doloribus dicta corrupti
+                        inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ducimus eum aliquid hic sunt,
+                        consectetur pariatur rerum ipsum ea reprehenderit est tempore non omnis dolorem possimus doloribus
+                        dicta corrupti inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ducimus eum
+                        aliquid hic sunt, consectetur pariatur rerum ipsum ea reprehenderit est tempore non omnis dolorem
+                        possimus doloribus dicta corrupti inventore.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="interest-container">
+        <div class="title">
+            <h1>관심사</h1>
+        </div>
+        <div class="interests">
+            <div class="interest">
+                <i data-feather="shield" class="ic"></i>
+                <div class="정보">
+                    <h2>정보보안</h2>
+                    <p>최근에 관심이생겼다.</p>
+                </div>
+            </div>
+            <div class="interest">
+                    <i data-feather="book" class="ic"></i>
+                <div class="book">
+                    <h2>책</h2>
+                    <p>늘 책을 좋아한다.</p>
+                </div>
+            </div>
+            <div class="interest">
+                    <i data-feather="users" class="ic"></i>
+                <div class="friends">
+                    <h2>친구</h2>
+                    <p>오랫동안 사귄 친구가 많다.</p>
+                </div>
+            </div>
+        </div>
+</div>
+<li><a href="indexm.html"><h1>모바일 버전</h1></a>
+</li>
+    <div id="contact-container"></div>
+    <footer>
+        <span id="copyright">ⓒ 2020. SWJ. All rights reserved.</span>
+    </footer>
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+</html>

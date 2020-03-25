@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="woojin.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>송우진</title>
+    <script type="text/javascript">
+        // 우측 클릭 방지
+        document.onmousedown=disableclick;
+        status="Right click is not available.";
+        
+        function disableclick(event){
+            if (event.button==2) {
+                alert("경고!! 우클릭방지");
+                return false;
+            }
+        
+        
+        }
+    </script>
+     <style type="text/css">.dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+        </style>
+</head>
+<body>
+<h1> 어서와 친구야~</h1>
+<h1>여기는 비밀의장소</h1>
+<ul>
+    <div class="dropdown">
+        <button class="dropbtn">MENU</button>
+        <div class="dropdown-content">
+    <li><a href="4m.html">시계</a></li>
+<li><a href="8m.html">게임</a></li>
+  <li><a href="indexm.html">Home</a></li>
+</ul>    
+
+<div id="contact-container"></div>
+</body>
+</html>
